@@ -1,3 +1,5 @@
 baseURL = 'https://www.meganhartillustrator.com/'
 languageCode = 'en-gb'
 title = 'Megan Hart - Illustrator'
+disableKinds = ['taxonomy', 'term']
+
