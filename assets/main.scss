@@ -1,0 +1,40 @@
+@import "normalize";
+@import "skeleton";
+
+$font_title: "Spectral SC", serif;
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
+$font_body: "Mulish", serif;
+
+html{
+    font-size: 16px;
+    font-family: $font_body;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header {
+    &__wrapper {
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__title {
+       font-family: $font_title;
+       font-size: 2.75rem;
+       margin:0;
+    }
+    &__nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        &-item {
+        font-size: 1.25rem;
+            font-family: $font_title;
+        }
+    }
+}
